@@ -1,0 +1,143 @@
+body{
+    color: white;
+    background-color: black;
+    size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 30px;
+}
+
+a {
+    
+    color:white;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #2196f3;
+}
+
+.center {
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 3px;
+}
+
+.ajustes {
+    text-align: center;
+}
+
+nav a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0s;
+ 
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    display: block;
+    border-radius: 25px; /* Adiciona bordas arredondadas NUNCA ESQUECER DISSO */
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+   
+}
+
+footer a {
+    color: inherit;
+    background: none;
+    box-shadow: none;
+    transition: none;
+    border-radius: initial;
+    margin-top: 500px;
+}
+
+.obj {
+   margin-top: 350px;
+}
+
+.exp {
+    margin-top: 200px;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.txt{
+    padding: 10px 90px;
+}
+
+.contato {
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* Tela responsiva*/
+
+/* Estilos padrão para o menu */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  nav li {
+    text-align: center;
+  }
+  
+  /* Media query para telas menores */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    nav li {
+      margin-bottom: 10px; 
+    }
+  }
+  
