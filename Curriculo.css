@@ -171,3 +171,11 @@ footer#redes-sociais a {
 .sobremim {
     margin-top: 210px;
 }
+
+
+.center:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 5px, 5px, 10px rgba(0, 0, 255, 0.567);
+    transition: transform 0.2, border 1s;
+
+}
