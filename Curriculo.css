@@ -77,15 +77,20 @@ li a {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
+    letter-spacing: 20px;
+
 }
 
 h2 {
     font-size: 35px;
+    letter-spacing: 20px;
+    margin-top: -40px;
 }
 
 h3 {
     font-size: 30px;
+    margin-top: 119px;
 }
 
 /* Tela responsiva*/
