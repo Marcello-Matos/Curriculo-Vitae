@@ -85,7 +85,7 @@ h1 {
 h2 {
     font-size: 35px;
     letter-spacing: 20px;
-    margin-top: -40px;
+    margin-top: -5px;
 }
 
 h3 {
@@ -183,4 +183,22 @@ footer#redes-sociais a {
     box-shadow: 5px, 5px, 10px rgba(0, 0, 255, 0.567);
     transition: transform 0.2, border 1s;
 
+}
+
+
+
+/*TELA RESPONSIVA PARA DISPOSITIVOS MOVEIS, */
+
+
+/* Consulta de mídia para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em; /* Tamanho de fonte menor para dispositivos móveis */
+        line-height: 1.2; /* Espaçamento entre linhas ajustado para dispositivos móveis */
+    }
+    
+    header h2 {
+        font-size: 1em; /* Tamanho de fonte menor para dispositivos móveis */
+        line-height: 1.2; /* Espaçamento entre linhas ajustado para dispositivos móveis */
+    }
 }
